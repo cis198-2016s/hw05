@@ -4,8 +4,8 @@ use std::rc::Rc;
 use super::room::Room;
 
 pub struct Hall {
-    pub left: Option<Rc<RefCell<Room>>>,
-    pub right: Option<Rc<RefCell<Room>>>,
+    pub left: Rc<RefCell<Room>>,
+    pub right: Rc<RefCell<Room>>,
 }
 
 impl Hall {
