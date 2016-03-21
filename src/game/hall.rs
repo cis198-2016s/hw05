@@ -10,14 +10,12 @@ pub struct Hall {
 
 impl Hall {
     pub fn new() -> Hall {
-        Hall {
-            left: None,
-            right: None,
-        }
+        unimplemented!();
     }
 
     /// Given a Room `room`, find the room at the other end of Hall `self`.
     pub fn other(&self, room: &Room) -> Rc<RefCell<Room>> {
         unimplemented!();
     }
+
 }
