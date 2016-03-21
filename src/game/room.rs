@@ -22,7 +22,9 @@ impl Eq for Room {}
 
 impl Room {
     // TODO: Implement the necessary methods for Rooms.
+
     pub fn neighbors_string(&self) -> String {
+        // TODO: Implement
         unimplemented!();
     }
 }
